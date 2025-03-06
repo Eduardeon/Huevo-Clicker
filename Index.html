@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Huevo 2.0</title>
+</head>
+<body>
+    <div class="texts">
+        <h1 id="Eggtext"></h1>
+        <h2 id="HPStext"></h2>
+    </div>
+    <button id="huevo" onclick="EggClick()"></button>
+    <div class="upgrade unselectable" onclick="gallinero.buy()">
+        <h1 class="buildingtext">Gallinero</h1>
+        <h2 class="pricetext" id="gallinero.price">15h</h2>
+        <h1 class="quantitytext" id="gallinero">0</h1>
+    </div>
+    <div class="upgrade unselectable" onclick="Sabrina.buy()">
+        <h1 class="buildingtext">Sabrina</h1>
+        <h2 class="pricetext" id="Sabrina.price">100h</h2>
+        <h1 class="quantitytext" id="Sabrina">0</h1>
+    </div>
+    <div class="upgrade unselectable" onclick="Carol.buy()">
+        <h1 class="buildingtext">Carol</h1>
+        <h2 class="pricetext" id="Carol.price">1100h</h2>
+        <h1 class="quantitytext" id="Carol">0</h1>
+    </div>
+    <div class="upgrade unselectable" onclick="Sebastian.buy()">
+        <h1 class="buildingtext">Sebastian</h1>
+        <h2 class="pricetext" id="Sebastian.price">12000h</h2>
+        <h1 class="quantitytext" id="Sebastian">0</h1>
+    </div>
+    <div class="upgrade unselectable" onclick="Diego.buy()">
+        <h1 class="buildingtext">Diego</h1>
+        <h2 class="pricetext" id="Diego.price">130000h</h2>
+        <h1 class="quantitytext" id="Diego">0</h1>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

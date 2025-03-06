@@ -1,0 +1,140 @@
+#huevo {
+    display: block;
+    margin: 9rem;
+    background-color: rgb(255, 210, 158);
+    filter: drop-shadow(rgb(190, 190, 190) 1rem 1rem 12px);
+    border: transparent;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%;
+    width: 15.5rem;
+    height: 20rem;
+    justify-self:center;
+    transition: transform .2s;
+}
+#huevo:hover {
+    transform: scale(110%)
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: -6rem;
+}
+.upgrade{
+    position: absolute;
+    right: -1rem;
+    left: 90rem;
+    display: flex;
+    background-color: darkgray;
+    width: 32rem;
+    height: 6rem;
+    align-self: left;
+    align-items: center;
+    justify-content: left;
+}
+.upgrade:hover{
+    background-color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+.upgrade:nth-of-type(1){
+    top: 10rem;
+}
+.upgrade:nth-of-type(2){
+    top: 17.5rem;
+}
+.upgrade:nth-of-type(3){
+    top: 25rem;
+}
+.upgrade:nth-of-type(4){
+    top: 32.5rem;
+}
+.upgrade:nth-of-type(5){
+    top: 40rem;
+}
+.upgrade:nth-of-type(6){
+    top: 47.5rem;
+}
+.buildingtext{
+    position: relative;
+    top: -4rem;
+    left: 1rem;
+    font-size: 2.5rem;
+}
+.pricetext{
+    position: absolute;
+    top: 2rem;
+    left: 3.5rem;
+    font-size: 2rem;
+    color: rgb(52, 52, 52);
+}
+.quantitytext{
+    position: absolute;
+    top: -2rem;
+    left: 25rem;
+    font-size: 4rem;
+    height:100%;
+    color: rgba(228, 228, 228, 0.594);
+}
+.texts{
+    margin: 0 auto;
+    background-color: rgba(169, 169, 169, 0.534);
+    width: 48rem;
+    height: 7rem;
+    justify-content: center;
+}
+#HPStext{
+    position: relative;
+    top: 4.5rem;
+    justify-self: center;
+    color: rgb(52, 52, 52);
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.achievement{
+    position: relative;
+    top: 1rem;
+    display: none;
+    width: 32rem;
+    height: 6rem;
+    background-color: rgb(96, 96, 96);
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    animation-name: bottom2top;
+    animation-duration: 0.5s;
+}
+.achievement:hover{
+    background-color: rgb(120,120,120);
+}
+.achievementname{
+    position: relative;
+    top: 2.5rem;
+}
+.achievementwon{
+    position: absolute;
+    background-image: linear-gradient(#fedc6b 25%,#d7b543 45%, #715700 50%, #E0AC00 60%);
+    color: transparent;
+    background-clip: text;
+    top: -1.5rem;
+    left: 9rem;
+    font-size: 2rem;
+}
+@keyframes bottom2top{
+    from{
+        top:4rem;
+    }
+    to{
+        top:1rem;
+    }
+}
+@keyframes top2bottom{
+    from{
+        top:1rem;
+    }
+    to{
+        top:4rem;
+    }
+}
