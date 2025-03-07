@@ -142,6 +142,7 @@ let Sebastian = new Building(12000,47,'Sebastian');
 let Diego = new Building(130000,260,"Diego");
 // Achievements
 let Huevos69 = new Achievement(69,quotaAchivement,"69 jajajajajaj",'Huevo');
+let Huevos777 = new Achievement(777,quotaAchivement,"No es simétrico",'Huevo');
 let Huevos1000 = new Achievement(1000,quotaAchivement,"HUEVOOOOO",'Huevo');
 let DiegoHUEVO = new Achievement(1000000,quotaAchivement,"Alcanzaste la cúspide de la huevitud eres el verdadero Diego",'Huevo');
 let Click1 = new Achievement(1,quotaAchivement,"No me toques el huevo",'Click');
